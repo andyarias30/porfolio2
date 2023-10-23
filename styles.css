@@ -1,0 +1,69 @@
+header{
+background-color:rgb(198, 204, 20);
+font-size: x-large;
+text-align: center;
+border: 2px solid white;
+border-radius: 50px 50px 50px 50px;
+
+
+}
+
+body{
+    background-color: rgb(74, 74, 148);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    background-image: url('fondo.jpeg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+#about{
+padding: 1rem;
+margin: 12px;
+border: 20px solid rgb(56, 137, 213);
+border-style: outset;
+background-color: gray;
+
+}
+
+#projects{
+    padding: 1rem;
+    margin: 12px;
+    border: 20px solid rgb(255, 230, 6);
+    border-style: dashed;
+    background-color: gray;
+
+}
+
+#contact{
+    text-align: center;
+    padding: 1rem;
+    margin: 12px;
+    border: 20px solid gray;
+    border-style:double;
+    background-color: antiquewhite;
+    
+}
+
+#supra{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+ol{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+
+li{
+    border: 1px solid rgb(12, 248, 154);
+    margin: 2px;
+    padding: 20px;
+}
+
+.contact{
+    text-align: center;
+
+}
